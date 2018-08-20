@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSTrangThaiPhiVaSoDoan" targetNamespace="http://tempuri.org/DSTrangThaiPhiVaSoDoan.xsd" xmlns:mstns="http://tempuri.org/DSTrangThaiPhiVaSoDoan.xsd" xmlns="http://tempuri.org/DSTrangThaiPhiVaSoDoan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSTrangThaiPhiVaSoDoan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSTrangThaiPhiVaSoDoan" msprop:Generator_UserDSName="DSTrangThaiPhiVaSoDoan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TrangThaiPhiVaSoDoan" msprop:Generator_TableClassName="TrangThaiPhiVaSoDoanDataTable" msprop:Generator_TableVarName="tableTrangThaiPhiVaSoDoan" msprop:Generator_TablePropName="TrangThaiPhiVaSoDoan" msprop:Generator_RowDeletingName="TrangThaiPhiVaSoDoanRowDeleting" msprop:Generator_RowChangingName="TrangThaiPhiVaSoDoanRowChanging" msprop:Generator_RowEvHandlerName="TrangThaiPhiVaSoDoanRowChangeEventHandler" msprop:Generator_RowDeletedName="TrangThaiPhiVaSoDoanRowDeleted" msprop:Generator_UserTableName="TrangThaiPhiVaSoDoan" msprop:Generator_RowChangedName="TrangThaiPhiVaSoDoanRowChanged" msprop:Generator_RowEvArgName="TrangThaiPhiVaSoDoanRowChangeEvent" msprop:Generator_RowClassName="TrangThaiPhiVaSoDoanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaDoanVien" msprop:Generator_ColumnVarNameInTable="columnMaDoanVien" msprop:Generator_ColumnPropNameInRow="MaDoanVien" msprop:Generator_ColumnPropNameInTable="MaDoanVienColumn" msprop:Generator_UserColumnName="MaDoanVien" type="xs:string" minOccurs="0" />
+              <xs:element name="TenDoanVien" msprop:Generator_ColumnVarNameInTable="columnTenDoanVien" msprop:Generator_ColumnPropNameInRow="TenDoanVien" msprop:Generator_ColumnPropNameInTable="TenDoanVienColumn" msprop:Generator_UserColumnName="TenDoanVien" type="xs:string" minOccurs="0" />
+              <xs:element name="DongDoanPhi" msprop:Generator_ColumnVarNameInTable="columnDongDoanPhi" msprop:Generator_ColumnPropNameInRow="DongDoanPhi" msprop:Generator_ColumnPropNameInTable="DongDoanPhiColumn" msprop:Generator_UserColumnName="DongDoanPhi" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SoDoan" msprop:Generator_ColumnVarNameInTable="columnSoDoan" msprop:Generator_ColumnPropNameInRow="SoDoan" msprop:Generator_ColumnPropNameInTable="SoDoanColumn" msprop:Generator_UserColumnName="SoDoan" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
